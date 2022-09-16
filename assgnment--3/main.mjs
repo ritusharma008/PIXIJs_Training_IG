@@ -6,7 +6,7 @@ export function createGame(div) {
     const game = new Application({
         width:innerWidth,
         height:innerHeight,
-        backgroundColor:0x2266FF,
+        backgroundColor:0xD0C4BB,
         // resizeTo: div
     });
     console.log('game', game);
