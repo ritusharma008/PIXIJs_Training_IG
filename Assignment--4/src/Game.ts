@@ -20,9 +20,8 @@ export class Game extends Application {
   winnerpage(luck: number): void {
     let arr = [10, 5, 1, 100, 15, "Jackpot", 20, 5, 1, 50, 2, "Zero"];
     let text = new Text(
-      "Yayyy... You have won : " +
-        arr[luck] +
-        "  from this lucky spin wheel\n"
+      "You won : " +
+        arr[luck] + "$"
     );
     text.x = innerWidth / 2;
     text.y = innerHeight / 2;
