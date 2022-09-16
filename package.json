@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@pixi/particle-container": "^6.5.3",
+    "@pixi/particle-emitter": "^5.0.7"
+  }
+}
