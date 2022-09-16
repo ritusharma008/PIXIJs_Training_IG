@@ -4,10 +4,10 @@ import { loadAssets } from "./js/loader.mjs";
 
 export function createGame(div) {
     const game = new Application({
-        width:1024,
-        height:920,
+        width:innerWidth,
+        height:innerHeight,
         backgroundColor:0x2266FF,
-        resizeTo: div
+        // resizeTo: div
     });
     console.log('game', game);
     div.appendChild(game.view);
@@ -16,7 +16,7 @@ export function createGame(div) {
 
 const game = createGame(document.getElementById('game'));
 loadAssets(game,[
-    { name: "back", url: "assets/cardback.png" },
+    { name: "back", url: "assets/backImg.png" },
     { name: "front", url: "assets/smilies.jpg" },
   ], () => {
     console.log('starting game');

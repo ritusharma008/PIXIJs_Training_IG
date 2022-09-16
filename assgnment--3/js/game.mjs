@@ -52,10 +52,10 @@ export function start(app) {
 function drawCards(stage) {
   let cardNum = 0;
   const cards = [];
-  const offsetX = 10;
-  const offsetXY = 10;
-  const paddingX = 10;
-  const paddingY = 10;
+  const offsetX = 270;
+  const offsetXY = 60;
+  const paddingX = 50;
+  const paddingY = 15;
   for (let i = 0; i < 4; i++) {
     for (let j = 0; j < 3; j++) {
       for (let c = 0; c < 2; c++) {
