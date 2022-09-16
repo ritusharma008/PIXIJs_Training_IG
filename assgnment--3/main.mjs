@@ -16,7 +16,7 @@ export function createGame(div) {
 
 const game = createGame(document.getElementById('game'));
 loadAssets(game,[
-    { name: "back", url: "assets/backImg.png" },
+    { name: "back", url: "assets/back.png" },
     { name: "front", url: "assets/smilies.jpg" },
   ], () => {
     console.log('starting game');
